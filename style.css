@@ -64,3 +64,15 @@ button:active{
 .opp-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+
+@media only screen and (max-width: 550px){
+    #calculator{
+        width: 95%;
+        overflow: scroll;
+    }
+    button{
+        width: 80px;
+        height: 80px;
+        font-size: 3rem;
+    }
+}
